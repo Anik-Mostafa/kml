@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+
+
+      <Style id="yellowPlacemark">
+      <IconStyle>
+        <color>ff00ffff</color> <!-- This sets the color to red -->
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+
+
+
+        <Style id="redPlacemark">
+      <IconStyle>
+        <color>ff0000ff</color> <!-- This sets the color to red -->
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+        <Style id="greenPlacemark">
+      <IconStyle>
+        <color>ff00ff00</color> <!-- This sets the color to red -->
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Sample Point</name>
+      <styleUrl>#redPlacemark</styleUrl>
+      <Point>
+        <coordinates>23.9965757,14.998518,0</coordinates>
+      </Point>
+    </Placemark>
+
+        <Placemark>
+      <name>Sample Point2</name>
+      <styleUrl>#yellowPlacemark</styleUrl>
+      <Point>
+        <coordinates>23.8465757,14.998518,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
